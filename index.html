@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mentee Page - Social Media Course</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <h1>Welcome to the Social Media Course!</h1>
+    
+    <h2>Course Completion Tracking</h2>
+    <table id="course-completion">
+        <tr>
+            <th>Course</th>
+            <th>Due Date</th>
+            <th>Status</th>
+        </tr>
+        <tr>
+            <td>Module 1: Introduction to Social Media</td>
+            <td>July 5, 2023</td>
+            <td>Completed</td>
+        </tr>
+        <tr>
+            <td>Module 2: Social Media Strategies</td>
+            <td>July 10, 2023</td>
+            <td>In Progress</td>
+        </tr>
+        <tr>
+            <td>Module 3: Social Media Analytics</td>
+            <td>July 15, 2023</td>
+            <td>Not Started</td>
+        </tr>
+        <!-- Add more rows for additional modules -->
+    </table>
+    
+    <h2>Feedback Form</h2>
+    <form id="feedback-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+        
+        <label for="feedback">Feedback:</label><br>
+        <textarea id="feedback" name="feedback" rows="5" cols="30" required></textarea><br><br>
+        
+        <input type="submit" value="Submit">
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
